@@ -9,8 +9,8 @@
   padding-right: 80px;
   gap: 74px;
   cursor: pointer;
-  background-color:var(--background-color) ;
-  height: 100vh;
+  background:var(--background-color) ;
+  
 }
 
 .card {
