@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --background-color: #FAFAFA;
+    --background-module:#FFF;
+    --primary-text-color: #0a0a0a;
+    --secondary-text-color: #ffffff;
+  
+  }
+
+[data-theme="dark"] {
+    --background-color: #202C36;
+    --background-module:#2B3844;
+    --primary-text-color: #f6f6f6;
+    --secondary-text-color: #0a0a0a;
+  }

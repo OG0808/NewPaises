@@ -1,0 +1,196 @@
+.card-country {
+  margin-top: 28px;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background-color:var(--background-color);
+}
+
+@media (max-width: 800px) {
+
+}
+
+.card-country__button {
+  width: 136px;
+  height: 40px;
+  border-radius: 6px;
+  background: var(--background-module);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.29);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-decoration: none;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: var(--primary-text-color);
+}
+
+.card-country__section {
+  display: flex;
+  align-items: center;
+  gap: 190px;
+}
+
+@media (max-width:600px){
+  .card-country__section{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+}
+
+@media (max-width:1200px) {
+  .card-country__section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.card-country__image{
+  max-width: 600px;
+  width: 100%;
+  max-height: 483.169px;
+  height: 100%;
+}
+
+.card-country__details {
+  max-width: 598px;
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+
+.card__country__container--info {
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+ @media (max-width:600px){
+  .card__country__container--info{
+    display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+    
+  }
+} 
+
+.card-country__info {
+  /* Estilos para la información básica del país */
+}
+
+.card-country__additional {
+  /* Estilos para la sección de información adicional del país */
+  margin-top: 67px;
+  height: 64%;
+}
+
+.paragraph {
+  color:var(--primary-text-color);
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 200% */
+}
+
+.card-country__name {
+  color:var(--primary-text-color);
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.card-country__borders {
+  /* Estilos para la sección de países vecinos/bordes del país */
+  display: flex;
+  margin-top: 70px;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 19px;
+margin-bottom: 3rem;
+}
+
+
+
+.card-country__border {
+  cursor: pointer;
+  width: 96px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 0px solid #979797;
+  background: #fff;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+  color: #111517;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card-country__languages {
+  /* Estilos para la sección de idiomas del país */
+  display: flex;
+  gap: 10px;
+}
+
+
+
+.card-country__native-name {
+  /* Estilos para el nombre nativo del país */
+}
+
+.card-country__population {
+  /* Estilos para la población del país */
+}
+
+.card-country__region {
+  /* Estilos para la región del país */
+}
+
+.card-country__subregion {
+  /* Estilos para la subregión del país */
+}
+
+.card-country__capital {
+  /* Estilos para la capital del país */
+}
+
+.card-country__domain {
+  /* Estilos para el dominio superior del país */
+}
+
+.card-country__currencies {
+  /* Estilos para la información de las monedas del país */
+}
+
+.card-country__language {
+  /* Estilos para cada idioma individual */
+}
