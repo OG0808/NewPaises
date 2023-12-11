@@ -10,6 +10,7 @@
   gap: 74px;
   cursor: pointer;
   background-color:var(--background-color) ;
+  height: 100vh;
 }
 
 .card {
